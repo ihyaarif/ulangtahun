@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en" translate="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light only" />
+
+    <title>Special For You</title>
+
+    <!-- SweetAlert (jika dipakai di JS) -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- MAIN -->
+    <div class="main" style="background-image: url(assets/bg.webp)">
+      <div class="bg-love"></div>
+
+      <div class="elements">
+        <img src="assets/bg2.webp" class="bg" alt="background" />
+
+        <div class="butterfly">
+          <img src="assets/butterfly.webp" alt="butterfly" />
+        </div>
+
+        <img src="assets/flower.webp" class="flower" alt="flower" />
+      </div>
+
+    <div class="flipbook centered" id="flipbook">
+       
+        <div class="leaf">
+            <div class="page front title external" style="background-color: #daa0ab;">
+                <img src="assets/Foto/1.png" alt="Kaoruko" style="width: 100%;  object-fit: cover;">
+            </div>
+            <div class="page back" style="background-color: #9bb688;">
+                
+
+                <img src="assets/Foto/2.png" alt="Kaoruko" style="width: 100%; object-fit: cover;">
+            </div>
+        </div>
+
+        <div class="leaf">
+            <div class="page front" style="background-color: #9bb688;">
+                <img src="assets/Foto/3.png" alt="Kaoruko" style="width: 100%;  object-fit: cover;">
+            </div>
+            <div class="page back" style="background-color: #daa0ab;">
+                 <img src="assets/Foto/4.png" alt="Kaoruko" style="width: 100%;  object-fit: cover;">
+            </div>
+        </div>
+
+        <div class="leaf">
+            <div class="page front" style="background-color: #daa0ab;">
+                 <img src="assets/Foto/5.png" alt="Kaoruko" style="width: 100%;  object-fit: cover;">
+            </div>
+            <div class="page back" style="background-color: #9bb688;">
+                 <img src="assets/Foto/6.png" alt="Kaoruko" style="width: 100%;  object-fit: cover;">
+            </div>
+        </div>
+
+        <div class="leaf">
+            <div class="page front" style="background-color: #daa0ab;">
+                 <img src="assets/Foto/7.png" alt="Kaoruko" style="width: 100%;  object-fit: cover;">
+            </div>
+            <div class="page back" style="background-color: #9bb688;">
+                 <img src="assets/Foto/8.png" alt="Kaoruko" style="width: 100%;  object-fit: cover;">
+            </div>
+        </div>
+
+        <div class="leaf">
+            <div class="page front" style="background-color: #daa0ab;">
+                 <img src="assets/Foto/9.png" alt="Kaoruko" style="width: 100%;  object-fit: cover;">
+            </div>
+            <div class="page back" style="background-color: #9bb688;">
+                 <img src="assets/Foto/10.png" alt="Kaoruko" style="width: 100%;  object-fit: cover;">
+            </div>
+        </div>
+
+        <div class="leaf">
+            <div class="page front" style="background-color: #daa0ab;">
+                 <img src="assets/Foto/11.png" alt="Kaoruko" style="width: 100%;  object-fit: cover;">
+            </div>
+            <div class="page back" style="background-color: #9bb688;">
+                 <img src="assets/Foto/12.png" alt="Kaoruko" style="width: 100%;  object-fit: cover;">
+            </div>
+        </div>
+
+        <div class="leaf">
+            <div class="page front" style="background-color: #9bb688;">
+                 <img src="assets/Foto/13.png" alt="Kaoruko" style="width: 100%;  object-fit: cover;">
+            </div>
+            <div class="page back external" style="background-color: #daa0ab;">
+                 <img src="assets/Foto/14.png" alt="Kaoruko" style="width: 100%;  object-fit: cover;">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="controls centered">
+        <button id="openBook">Open</button>
+        <button id="prevPage" style="display:none">&lt; Previous</button>
+        <button id="nextPage" style="display:none">Next &gt;</button>
+    </div>  
+
+    <!-- JS (HANYA SATU KALI, DI AKHIR) -->
+    <script src="script.js"></script>
+  </body>
+</html>
